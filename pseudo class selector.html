@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+a.ex:link {
+  color: green;
+}
+
+
+a.ex:visited {
+  color: blue;
+}
+
+
+a.ex:hover {
+  color: red;
+}
+
+
+a.ex:active {
+  color: green;
+} 
+
+a.ex1:hover{color: blue;} a.ex1:active {color: red;}
+a.ex2:hover, a.ex2:active {font-size: 150%;}
+a.ex3:hover, a.ex3:active {background: red;}
+a.ex4:hover, a.ex4:active {font-family: monospace;}
+a.ex5:visited, a.ex5:link {text-decoration: none;}
+a.ex5:hover, a.ex5:active {text-decoration: underline;}
+p.ex6:hover{text-decoration: underline;}
+
+
+
+
+</style>
+</head>
+<body>
+
+<p class="ex6">
+	Mouse over and click the link: 
+	<a class="ex" href="#">FB</a>
+</p>
+
+<p><a class="ex1" href="#">This link changes color</a></p>
+<p><a class="ex2" href="#">This link changes font-size</a></p>
+<p><a class="ex3" href="#">This link changes background-color</a></p>
+<p><a class="ex4" href="#">This link changes font-family</a></p>
+<p><a class="ex5" href="#">This link changes text-decoration</a></p>
+
+</body>
+</html>

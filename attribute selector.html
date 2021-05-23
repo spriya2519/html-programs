@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		/* 1st Point */ 
+		[class] {
+			background-color: purple;
+			border: 2px dotted blue;	
+		}
+
+		/* 2nd point */ 
+		[title="paragraph title"] {
+			background-color: pink;
+			border: 2px dotted blue;		
+		}
+		[class="parag2"] {
+			background-color: blue;
+			text-align="centre";	
+		}
+		
+		/* 3rd point */ 
+		[title~="this"] {
+			background-color: blue;
+			border: 2px dotted blue;		
+		}
+
+		/* 4th point */ 
+		[href^="https"] {
+			background-color: green;
+			border: 2px dotted blue;		
+		}
+		[title^="hello"] {
+			background-color: green;
+			border: 2px dotted blue;		
+		}
+
+		/* 5th point */ 
+		[name*="our"] {
+			background-color: fuchsia;
+			border: 2px dotted black;
+		}
+
+		/* 6th point */ 
+		[href$=".com"] {
+			background-color: yellow;
+			border: 2px dotted blue;	
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<!-- 1st Point -->
+	<p>1st Point</p>
+	<p class="parag"> This is the fourth paragraph</p><br>
+	<h1 class="parag1">this is heading</h1><br>
+
+	<!-- 2nd Point -->
+	<p>2nd Point</p>
+	<p class="parag2"> This is the second paragraph</p><br>
+	<h1 title="paragraph title">heading</h1>
+	
+	<!-- 3rd Point -->
+	<p>3rd Point</p>
+	<p title="this is paragraph"> This is the first paragraph</p><br>
+	
+	<!-- 4th Point -->
+	<p>4th Point</p>
+	<a href="https://www.brindavancollege.com" title="BC">College</a><br>
+	<a href="https://www.google.com" title="google">Google</a>
+	<a title="hello">hello Google</a>
+	
+	<!-- 5th Point -->
+	<p>5th Point</p>
+	<p name="para four"> This is the fourth paragraph</p><br>
+	
+	<!-- 6th Point -->
+	<p>6th Point</p>
+	<a href="www.vtu.ac.in">VTU</a>
+
+</body>
+</html>
