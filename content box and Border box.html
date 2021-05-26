@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+	div.para1 {
+ 		 
+  		 box-sizing:content-box;
+		 background-color: lightblue;
+		 height: 100px;
+		 width: 1100px;
+		 text-align:center;
+		 Border: 5px solid black;
+		 padding: 10px;
+		   margin: 10px;
+	}
+
+	div{
+		background-color: yellow;
+		 height: 20px;
+		 width: 1100px;
+        }
+
+	div.para2 {
+ 		 box-sizing:border-box;
+  		 background-color: lightblue;
+		 height: 100px;
+		 width: 1100px;
+		text-align:center;
+		Border: 5px solid black;
+		padding: 20px;
+		margin: 10px;
+	}
+</style>
+</head>
+<body>
+
+<h2>Content Box vs Border Box</h2>
+
+<div class="para1">This is a Content Box. If any Border or Padding is defined for this paragraph, the corresponding elements
+   will be created without distirbing the content area</div>
+
+<div></div>
+
+<div class="para2">This is a Border Box. If any Border or Padding is defined for this paragraph, the corresponding elements
+   will be created by taking a share of the content area</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<style>
+		
+			body {
+				font-weight: bold;
+				color: red;
+			}
+
+			div {
+				font-weight: normal;
+				color: magenta;
+			}
+
+			p {
+				color: green;
+			}
+
+			.last {
+				color: blue;
+			}
+
+			#verylast {
+				color: orange;
+				font-size: 250%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		This text is not within a p element.
+		<p>Reviews</p>
+		<div>
+			<p>By Ricardo on <time>September 15, 2015</time></p>
+			<p>Easy on the HDR buddy.</p>
+			This text is not within a p element.
+		</div>
+
+		<div>
+			<p>By Susan on <time>October 1, 2015</time></p>
+			<p>I love Central Park.</p>
+		</div>
+
+		<div>
+			<p class="last">By Dave on <time>October 15, 2015</time></p>
+			<p class="last" id="verylast">Thanks for posting.</p>
+		</div>
+
+	</body>
+</html>
